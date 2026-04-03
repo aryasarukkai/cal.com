@@ -53,7 +53,7 @@ RUN rm -rf node_modules/.cache .yarn/cache apps/web/.next/cache
 FROM node:20 AS builder-two
 
 WORKDIR /calcom
-ARG NEXT_PUBLIC_WEBAPP_URL=http://localhost:3000
+ARG NEXT_PUBLIC_WEBAPP_URL=https://cal.amm.lol
 
 ENV NODE_ENV=production
 
